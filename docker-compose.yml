@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  chiad:
+    environment:
+      - LOG_LEVEL=INFO
+      - TZ=Europe/Kiev
+    build: ./
+#    volumes:
+#      - ./chia-mainnet:/root/.chia
